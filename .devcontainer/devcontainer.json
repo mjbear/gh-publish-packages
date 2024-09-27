@@ -4,5 +4,6 @@
   "_comment": "This is a specific image based on the sha checksum",
   "image": "ghcr.io/mjbear/publish-packages/game:sha-5a14038",
   "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   }
 }
