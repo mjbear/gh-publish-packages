@@ -4,8 +4,7 @@
   "_comment": "This is a specific image based on the sha checksum",
   "_comment_image": "ghcr.io/mjbear/publish-packages/game:sha-5a14038",
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {
-      "postStartCommand": "docker pull ghcr.io/mjbear/publish-packages/game:sha-5a14038 && docker run -dp 8080:80 --rm ghcr.io/mjbear/publish-packages/game:sha-5a14038"
-    }
-  }
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postStartCommand": "docker pull ghcr.io/mjbear/publish-packages/game:sha-5a14038 && docker run -dp 8080:80 --rm ghcr.io/mjbear/publish-packages/game:sha-5a14038"
 }
